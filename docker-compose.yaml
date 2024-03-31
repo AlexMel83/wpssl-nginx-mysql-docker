@@ -4,7 +4,7 @@ services:
         image: nginx:alpine
         volumes:
             - "./etc/nginx/default.conf:/etc/nginx/conf.d/default.conf"  
-            - "./etc/nginx/hufta.conf:/etc/nginx/conf.d/hufta.conf"        
+            - "./etc/nginx/cfhope.in.ua.conf:/etc/nginx/conf.d/cfhope.in.ua.conf"        
             - "./etc/nginx/nginx.conf:/etc/nginx/nginx.conf"
             - "./etc/ssl/:/etc/nginx/ssl/"
             - "./web:/var/www/html"
